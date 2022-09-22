@@ -1,0 +1,80 @@
+
+.font{
+  font-weight: 600;
+}
+#hov{
+  display: none;
+  background:#1e1e1e;
+}
+#file:hover + #hov {
+  display: block;
+}
+#hovv{
+  display: none;
+  background: #fff;
+}
+#file:hover + #hovv {
+  display: block;
+}
+
+#hovvv{
+  display: none;
+}
+#file:hover + #hovvv {
+  display: block;
+}
+// #hov:hover{
+//   display: block;
+// }
+
+.bg{
+}
+.bg:hover{
+  transform: scale(1.075);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+  
+}
+
+.App {
+  background-image: url('/img/wall.jpg');
+  max-height: 800px;
+  height: cover;
+  width: auto;
+  // background: #7a1959;
+} 
+/* .App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
