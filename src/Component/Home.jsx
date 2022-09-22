@@ -261,16 +261,16 @@ const Home = () => {
            </div>}
            {menu === 'run' && <div ref={domNode} className='bg-[#303031] absolute text-[#cfcfcf] leading-6 mx-auto font-bold rounded-md text-[11px] top-[42px] ml-[258px] z-20 h-full max-h-[400px] w-full shadow-sm max-w-[300px]'>
            <ul>
-            <li className='px-5 justfy-between mt-2 hover:bg-blue-900'>Command palette</li>
-            <li className='px-5 border-b border-[#636464] hover:bg-blue-900'>Open View...</li>
-            <li className='px-5  hover:bg-blue-900'>Appearance</li>
-            <li className='px-5  border-b border-[#636464] hover:bg-blue-900'>Editor Layout</li>
-            <li className='px-5 hover:bg-blue-900'>Explorer</li>
-            <li className='px-5 hover:bg-blue-900'>Search</li>
-            <li className='px-5  hover:bg-blue-900'>Source Control</li>
-            <li className='px-5  hover:bg-blue-900'>Run</li>
-            <li className='px-5 border-b border-[#636464] hover:bg-blue-900'>Extensions</li>
-            <li className='px-5  hover:bg-blue-900'>Problems</li>
+            <li className='px-5 justfy-between mt-2 hover:bg-blue-900'>Start Debuging</li>
+            <li className='px-5 border-b border-[#636464] hover:bg-blue-900'>Run without Debuging</li>
+            <li className='px-5  hover:bg-blue-900'>Stop Debuging</li>
+            <li className='px-5  border-b border-[#636464] hover:bg-blue-900'>Restart Debuging</li>
+            <li className='px-5 hover:bg-blue-900'>Open Configurations</li>
+            <li className='px-5 border -[#636464]hover:bg-blue-900'>Add Configurations</li>
+            <li className='px-5  hover:bg-blue-900'>Step Over</li>
+            <li className='px-5  hover:bg-blue-900'>Step Into</li>
+            <li className='px-5 border-b border-[#636464] hover:bg-blue-900'>Continue</li>
+            <li className='px-5  hover:bg-blue-900'>Step Out</li>
             <li className='px-5 hover:bg-blue-900'>Output</li>
             <li className='px-5 border-b border-[#636464] hover:bg-blue-900'>Termnal</li>
             <li className='px-5 hover:bg-blue-900'>Word Wrap</li>
